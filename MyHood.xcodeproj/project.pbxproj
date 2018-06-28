@@ -13,6 +13,8 @@
 		55D25E2820E42624004E4304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D25E2720E42624004E4304 /* Assets.xcassets */; };
 		55D25E2B20E42624004E4304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D25E2920E42624004E4304 /* LaunchScreen.storyboard */; };
 		55D25E3420E4275C004E4304 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25E3320E4275C004E4304 /* Post.swift */; };
+		55D25E3720E44EDB004E4304 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25E3620E44EDB004E4304 /* PostCell.swift */; };
+		55D25E3E20E58BFE004E4304 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25E3D20E58BFE004E4304 /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55D25E2A20E42624004E4304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D25E2C20E42624004E4304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D25E3320E4275C004E4304 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		55D25E3620E44EDB004E4304 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		55D25E3D20E58BFE004E4304 /* AddPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		55D25E1F20E42622004E4304 /* MyHood */ = {
 			isa = PBXGroup;
 			children = (
+				55D25E3820E58B2B004E4304 /* Controller */,
+				55D25E3520E44EC3004E4304 /* View */,
 				55D25E3220E4274B004E4304 /* Model */,
 				55D25E2020E42622004E4304 /* AppDelegate.swift */,
 				55D25E2220E42622004E4304 /* ViewController.swift */,
@@ -73,6 +79,22 @@
 				55D25E3320E4275C004E4304 /* Post.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		55D25E3520E44EC3004E4304 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D25E3620E44EDB004E4304 /* PostCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D25E3820E58B2B004E4304 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55D25E3D20E58BFE004E4304 /* AddPostVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +170,9 @@
 			files = (
 				55D25E3420E4275C004E4304 /* Post.swift in Sources */,
 				55D25E2320E42622004E4304 /* ViewController.swift in Sources */,
+				55D25E3E20E58BFE004E4304 /* AddPostVC.swift in Sources */,
 				55D25E2120E42622004E4304 /* AppDelegate.swift in Sources */,
+				55D25E3720E44EDB004E4304 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
