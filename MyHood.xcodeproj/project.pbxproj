@@ -15,6 +15,7 @@
 		55D25E3420E4275C004E4304 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25E3320E4275C004E4304 /* Post.swift */; };
 		55D25E3720E44EDB004E4304 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25E3620E44EDB004E4304 /* PostCell.swift */; };
 		55D25E3E20E58BFE004E4304 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25E3D20E58BFE004E4304 /* AddPostVC.swift */; };
+		55D25E4020E9C83F004E4304 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25E3F20E9C83F004E4304 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		55D25E3320E4275C004E4304 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		55D25E3620E44EDB004E4304 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		55D25E3D20E58BFE004E4304 /* AddPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		55D25E3F20E9C83F004E4304 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				55D25E2720E42624004E4304 /* Assets.xcassets */,
 				55D25E2920E42624004E4304 /* LaunchScreen.storyboard */,
 				55D25E2C20E42624004E4304 /* Info.plist */,
+				55D25E3F20E9C83F004E4304 /* DataService.swift */,
 			);
 			path = MyHood;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				55D25E3420E4275C004E4304 /* Post.swift in Sources */,
 				55D25E2320E42622004E4304 /* ViewController.swift in Sources */,
 				55D25E3E20E58BFE004E4304 /* AddPostVC.swift in Sources */,
+				55D25E4020E9C83F004E4304 /* DataService.swift in Sources */,
 				55D25E2120E42622004E4304 /* AppDelegate.swift in Sources */,
 				55D25E3720E44EDB004E4304 /* PostCell.swift in Sources */,
 			);
